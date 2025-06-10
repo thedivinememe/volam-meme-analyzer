@@ -237,7 +237,19 @@ npm run test:coverage
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
+### GitHub Pages (Recommended)
+The application is configured for static export and can be deployed to GitHub Pages:
+
+```bash
+# Build static site
+npm run build
+
+# The 'out' directory contains the static files
+```
+
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed GitHub Pages setup instructions.
+
+### Vercel
 ```bash
 # Install Vercel CLI
 npm i -g vercel
